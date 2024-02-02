@@ -6,10 +6,10 @@ header{
 	text-align: center;
 }
 footer{
-	positin: fixed;
+	position: fixed;
 	bottom: 0;
 	background-color: skyblue;
-	width: 100;
+	width: 100px;
 	text-align: center;
 	color: orange;
 }
@@ -33,7 +33,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: skyblue;
 }
 
 li {
@@ -42,12 +42,18 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: orange;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 li a:hover {
   background-color: #111;
+}
+
+img{
+	border: 2pt solid black;
+	border-radius: 120px;
 }
