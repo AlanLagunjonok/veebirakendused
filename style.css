@@ -1,0 +1,53 @@
+header{
+	color: orange; /*teksti värv*/
+	background-color: skyblue; /*tausta värv*/
+	font-family: "Georgia", Arial;
+	letter-spacing: 0.2cm;
+	text-align: center;
+}
+footer{
+	positin: fixed;
+	bottom: 0;
+	background-color: skyblue;
+	width: 100;
+	text-align: center;
+	color: orange;
+}
+main section{
+	border-top: 3pt solid black; /*dotted dashed*/
+	border-bottom: 4pt solid pink;
+	border-radius: 60px;
+	padding: 2%;
+	width: 30%;
+}
+main sectin h2{
+	color: orange; /*teksti värv*/
+	background-color: skyblue; /*tausta värv*/
+	font-family: "Georgia", Arial;
+	letter-spacing: 0.2cm;
+	text-align: center;
+}
+/*navigeerimismenüü w3schools Lehelt*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
