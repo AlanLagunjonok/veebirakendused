@@ -1,0 +1,155 @@
+table{
+	width: 40%; /*40% ekraani laiust*/
+	height: 200px;
+	border: 1pt solid violet;
+}
+td{
+	border: 1pt solid violet;
+	text-align: center;
+}
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: purple;
+}
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: skyblue;
+}
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: pink;
+}
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: magenta;
+}
+#tabel1 tr:nth-child(1) td:nth-child(3){
+	background-color: crimson;
+}
+#tabel1 tr:nth-child(2) td:nth-child(3){
+	background-color: lime;
+}
+#eesti{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#eesti td{
+	border:0;
+}
+#eesti tr:nth-child(1){
+	background-color: blue;
+}
+#eesti tr:nth-child(2){
+	background-color: black;
+}
+#eesti tr:nth-child(3){
+	background-color: white;
+}
+		/*-----Soome lipp--*/
+#soome{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#soome td{
+	border: 0;
+}
+#soome tr:nth-child(1) td:nth-child(1),
+#soome tr:nth-child(3) td:nth-child(1){
+	background-color: white;
+	width: 25%;
+}
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2){
+	background-color: blue;
+	width: 15%;
+}
+#soome tr:nth-child(2){
+	background-color: blue;
+	height: 13%;
+}
+#soome tr:nth-child(1) td:nth-child(3),
+#soome tr:nth-child(3) td:nth-child(3){
+	background-color: white;
+	height: 20%;}
+	
+#palett{
+	width: 330px;
+	height: 210px;
+	border-spacing: 0;
+}
+#palett td{
+	border: 0;
+}
+#palett tr:nth-child(1){
+	background-color: #ffb61d;
+}
+#palett tr:nth-child(2){
+	background-color: #ff7052;
+}
+#palett tr:nth-child(3){
+	background-color: #ff38c2; 
+}
+
+#austria{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#austria td{
+	border:0;
+}
+#austria tr:nth-child(1){
+	background-color: red;
+}
+#austria tr:nth-child(2){
+	background-color: white;
+}
+#austria tr:nth-child(3){
+	background-color: red;
+}
+
+#ungari{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#ungari td{
+	border:0;
+}
+#ungari tr:nth-child(1){
+	background-color: red;
+}
+#ungari tr:nth-child(2){
+	background-color: white;
+}
+#ungari tr:nth-child(3){
+	background-color: lime;
+}
+#belgia{
+	width: 330px; /*40% ekraani laiust*/
+	height: 200px;
+	border-spacing: 0;
+}
+#belgia td{
+	border:0;
+}
+#belgia tr:nth-child(1) td:nth-child(1){
+	background-color: black;
+}
+#belgia tr:nth-child(1) td:nth-child(2){
+	background-color: yellow;
+}
+#belgia tr:nth-child(2) td:nth-child(1){
+	background-color: black;
+}
+#belgia tr:nth-child(2) td:nth-child(2){
+	background-color: yellow;
+}
+#belgia tr:nth-child(1) td:nth-child(3){
+	background-color: red;
+}
+#belgia tr:nth-child(2) td:nth-child(3){
+	background-color: red;
+}
