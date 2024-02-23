@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Õpilase ANKEET</title>
+    <link rel="stylesheet" type="text/css" href="anketstyle.css">
+    <script src="nimiLugemine.js"></script>
+</head>
+<body>
+<h1>Õpilase Ankeet</h1>
+<form>
+    <!--tekstkast-->
+    <label for="nimi">Sisesta nimi:</label>
+    <input type="text" id="nimi" name="nimi" placeholder="Eesnimi" oninput="sisestaNimi()">
+    <div id="vastus"></div>
+    <br>
+    <!--checkbox-->
+    <strong>Vali tehtud kursused:</strong>
+    <br>
+    <input type="checkbox" id="kurs1" value="1.kursus">
+    <label for="kurs1">1.kursus</label>
+    <br>
+    <input type="checkbox" id="kurs2" value="2.kursus">
+    <label for="kurs2">2.kursus</label>
+    <br>
+    <input type="checkbox" id="kurs3" value="3.kursus">
+    <label for="kurs3">3.kursus</label>
+    <br>
+    <!--radionupp-->
+    <strong>Vali Eriala:</strong>
+    <!--id kogu aeg erinevad,-->
+    <br>
+    <input type="radio" id="it" value="IT" name="eriala">
+    <label for="it">Infotehnoloogia</label>
+    <br>
+    <input type="radio" id="juuksur" value="IT" name="eriala">
+    <label for="juuksur">Juuksur</label>
+    <br>
+    <input type="radio" id="meh" value="IT" name="eriala">
+    <label for="meh">Mehhatroonika</label>
+    <br>
+    <input type="radio" id="ratsep" value="IT" name="eriala">
+    <label for="ratsep">Rätsep</label>
+    <br>
+    <!--suur tekstkast-->
+    <strong>Kirjuta ennast:</strong>
+    <br>
+    <textarea id="kiri">oodetakse 100 sõnu</textarea>
+    <br>
+    <!--ripploend-->
+    <label for="linn">Elukoht:</label>
+    <select name="linn" id="linn">
+        <option value="vali">Palun vali linn.....</option>
+        <option value="Tallinn">Tallinn</option>
+        <option value="Tartu">Tartu</option>
+        <option value="Pärnu">Pärnu</option>
+        <option value="Viljandi">Viljandi</option>
+        <option value="Kehra">Kehra</option>
+    </select>
+    <br>
+    <strong>Email:</strong>
+    <input type="email">
+    <br>
+    <strong>Kuupäev:</strong>
+    <input type="date">
+    <br>
+    <strong>Kirjuta endast:</strong>
+    <input type="text">
+    <br>
+    <strong>Mis värv sulle meeldib?</strong>
+    <input type="color">
+    <br>
+    <strong>Kui vana sa oled?</strong>
+    <input type="number">
+    <br>
+    <strong>Sugu:</strong>
+    <br>
+    <input type="radio" id="man" value="man" name="sugu">
+    <label for="man">mees</label>
+    <br>
+    <input type="radio" id="woman" value="woman" name="sugu">
+    <label for="woman">naine</label>
+    <br>
+    <input type="button" value="Salvesta">
+    <input type="reset" value="Puhasta">
+</form>
+
+</body>
+</html>
