@@ -1,27 +1,30 @@
 h1{
-    background-color: palegoldenrod;
+    background-color: skyblue;
 }
 input[type=text] {
-    width: 10%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 10px;
+    margin: 5px 0;
     box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus {
-    background-color: lightblue;
+    border: 3px solid #87e9e7;
+    width: 75%;
 }
 input[type=text]:hover {
-    background-color: lightcyan;
+    background-color: skyblue;
 }
 textarea {
-    width: 20%;
+    width: 50%;
     height: 60px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: skyblue;
     resize: none;
+    transition: width 0.4s ease-in-out;
+}
+textarea:focus {
+    width: 100%;
 }
