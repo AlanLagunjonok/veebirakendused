@@ -10,13 +10,24 @@
 <h1>Õpilase Ankeet</h1>
 <form>
     <!--tekstkast-->
+	<table border="1">
+	<tr>
+    <td>
     <label for="nimi">Sisesta nimi:</label>
+	</td>
+        <td>
     <input type="text" id="nimi" name="nimi" placeholder="Eesnimi" oninput="sisestaNimi()">
     <div id="vastus"></div>
-    <br>
+        </td>
+    </tr>
+
+        <tr>
+            <td>
+	
     <!--checkbox-->
     <strong>Vali tehtud kursused:</strong>
-    <br>
+			</td>
+            <td>
     <input type="checkbox" id="kurs1" value="1.kursus">
     <label for="kurs1">1.kursus</label>
     <br>
@@ -25,11 +36,15 @@
     <br>
     <input type="checkbox" id="kurs3" value="3.kursus">
     <label for="kurs3">3.kursus</label>
-    <br>
+			</td>
+
+        <tr>
+            <td>
     <!--radionupp-->
     <strong>Vali Eriala:</strong>
     <!--id kogu aeg erinevad,-->
-    <br>
+			</td>
+        <td>
     <input type="radio" id="it" value="IT" name="eriala">
     <label for="it">Infotehnoloogia</label>
     <br>
@@ -41,14 +56,23 @@
     <br>
     <input type="radio" id="ratsep" value="IT" name="eriala">
     <label for="ratsep">Rätsep</label>
-    <br>
+		</td>
+
+        <tr>
+            <td>
     <!--suur tekstkast-->
     <strong>Kirjuta ennast:</strong>
-    <br>
+			</td>
+        <td>
     <textarea id="kiri">oodetakse 100 sõnu</textarea>
-    <br>
+		</td>
+
+        <tr>
+            <td>
     <!--ripploend-->
     <label for="linn">Elukoht:</label>
+			</td>
+        <td>
     <select name="linn" id="linn">
         <option value="vali">Palun vali linn.....</option>
         <option value="Tallinn">Tallinn</option>
@@ -57,33 +81,61 @@
         <option value="Viljandi">Viljandi</option>
         <option value="Kehra">Kehra</option>
     </select>
-    <br>
+		</td>
+
+        <tr>
+            <td>
     <strong>Email:</strong>
+			</td>
+        <td>
     <input type="email">
-    <br>
+		</td>
+
+        <tr>
+            <td>
     <strong>Kuupäev:</strong>
+			</td>
+        <td>
     <input type="date">
-    <br>
-    <strong>Kirjuta endast:</strong>
+		</td>
+
+        <tr>
+            <td>
+    <strong>Millised on teie hobid?</strong>
+			</td>
+        <td>
     <input type="text">
-    <br>
+		</td>
+
+	<tr>
+		<td>
     <strong>Mis värv sulle meeldib?</strong>
+		</td>
+    <td>
     <input type="color">
-    <br>
+    </td>
+
+        <tr>
+            <td>
     <strong>Kui vana sa oled?</strong>
+			</td>
+        <td>
     <input type="number">
-    <br>
+		</td>
+
+        <tr>
+            <td>
     <strong>Sugu:</strong>
-    <br>
+			</td>
+			<td>
     <input type="radio" id="man" value="man" name="sugu">
     <label for="man">mees</label>
-    <br>
     <input type="radio" id="woman" value="woman" name="sugu">
     <label for="woman">naine</label>
-    <br>
+			</td>
+    </table>
     <input type="button" value="Salvesta">
     <input type="reset" value="Puhasta">
 </form>
-
 </body>
 </html>
